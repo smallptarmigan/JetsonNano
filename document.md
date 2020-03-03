@@ -46,11 +46,19 @@ $ sudo service ssh status           # activeであることを確認
 $ ip a                              # IPアドレスの確認
 ```
 
-### 
+### DeepLearn環境設定
+
+tensorflow + kerasを導入する．
+
+nvidia公式のものでないとtensorflowが入れれない．
+
+公式のものにはkerasも同封されている．
 
 ```bash
-
+./0_setup/setup.sh
 ```
+
+
 
 
 
