@@ -69,7 +69,9 @@ tensorflowに内蔵されているKerasを使用する際に気を付ける．
 
 ### kerasを使ってmnistの学習
 
-
+``` bash
+python3 1_cnn_mnist/mnist_cnn.py
+```
 
 
 
