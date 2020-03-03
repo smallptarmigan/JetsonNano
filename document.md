@@ -58,6 +58,16 @@ nvidia公式のものでないとtensorflowが入れれない．
 ./0_setup/setup.sh
 ```
 
+tensorflowに内蔵されているKerasを使用する際に気を付ける．
+
+以下のように記述する必要がある．
+
+```diff
+- from keras.models import model_from_json
++ from tensorflow.keras.models import model_from_json
+```
+
+### kerasを使ってmnistの学習
 
 
 
@@ -81,3 +91,7 @@ nvidia公式のものでないとtensorflowが入れれない．
 1. [Getting Started With Jetson Nano Developer Kit](https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit)
 
 1. [Jetson Nanoで使えるSDカードのイメージファイルまとめとイメージ書き込み方法](https://qiita.com/karaage0703/items/0583528f1f9c34911a31)
+
+1. [Jetson Nanoでディープラーニング](https://qiita.com/karaage0703/items/b09f3c65eb3913d087e4)
+
+1. [keras-team/keras mnist_cnn サンプル](https://github.com/keras-team/keras/blob/master/examples/mnist_cnn.py)
