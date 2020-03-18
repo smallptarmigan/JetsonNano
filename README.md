@@ -91,6 +91,10 @@ $ sudo vi /etc/network/interfaces.d/network
 + dns-nameservers 192.168.0.1,8.8.8.8
 ```
 
+### swap領域の拡張
+
+
+
 ### DeepLearn環境設定
 
 tensorflow + kerasを導入する．
