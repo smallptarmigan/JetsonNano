@@ -44,25 +44,8 @@ $ sudo apt upgrade
 実行後には再起動をする必要がある。
 
 ```bash
-$ sudo vi /etc/network/interfaces.d/network
+$ bash 0_setup/setip.sh
 ```
-
-networkに記述する．
-
-```diff
-+ auto lo
-+ iface lo inet loopback
-
-+ auto eth0
-
-+ iface eth0 inet static
-+ address 192.168.0.40
-+ netmask 255.255.255.0
-+ gateway 192.168.0.1
-+ dns-nameservers 192.168.0.1,8.8.8.8
-```
-
-再起動を実行する。
 
 ### SSHの有効化（直接接続する場合は飛ばす）
 
