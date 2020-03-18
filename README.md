@@ -39,6 +39,10 @@ $ sudo apt upgrade
 ```
 ### IPの固定
 
+0_setup/setip.shを実行すると、設定ファイルが生成される。
+
+実行後には再起動をする必要がある。
+
 ```bash
 $ sudo vi /etc/network/interfaces.d/network
 ```
@@ -57,6 +61,8 @@ networkに記述する．
 + gateway 192.168.0.1
 + dns-nameservers 192.168.0.1,8.8.8.8
 ```
+
+再起動を実行する。
 
 ### SSHの有効化（直接接続する場合は飛ばす）
 
