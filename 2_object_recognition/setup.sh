@@ -3,7 +3,7 @@
 git clone --recursive https://github.com/dusty-nv/jetson-inference.git
 
 cd jetson-interence
-madir build
+mkdir build
 cd build
 cmake ../
 
