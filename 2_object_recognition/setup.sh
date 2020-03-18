@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone --recursive https://github.com/dusty-nv/jetson-interence.git
+git clone --recursive https://github.com/dusty-nv/jetson-inference.git
 
 cd jetson-interence
 madir build
