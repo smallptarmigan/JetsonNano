@@ -57,7 +57,11 @@ $ ip a                              # IPアドレスの確認
 
 ### swap領域の拡張
 
+0_setup/setswap.shを実行するとセットアップされる。
 
+```bash
+$ bash 0_setup/setswap.sh
+```
 
 ### DeepLearn環境設定
 
