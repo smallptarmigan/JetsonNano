@@ -2,10 +2,8 @@
 
 git clone --recursive https://github.com/dusty-nv/jetson-inference.git
 
-cd jetson-interence
-mkdir build
-cd build
-cmake ../
+mkdir jetson-interence/build
+cmake jetson-interence
 
 make
 
