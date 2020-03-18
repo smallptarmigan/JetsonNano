@@ -72,31 +72,6 @@ $ sudo service ssh status           # activeであることを確認
 $ ip a                              # IPアドレスの確認
 ```
 
-### IPを固定する
-
-```bash
-$ sudo vi /etc/network/interfaces.d/network
-```
-
-```deff
-# The loopback network interface
-+ auto lo
-+ iface lo inet loopback
-
-# The primary network interface
-+ auto eth0
-
-# DHCP 
-# iface eth0 inet dhcp
-
-# Static IP
-+ iface eth0 inet static
-+ address 192.168.1.100
-+ netmask 255.255.255.0
-+ gateway 192.168.1.254
-+ dns-nameservers 192.168.0.1,8.8.8.8
-```
-
 ### swap領域の拡張
 
 
